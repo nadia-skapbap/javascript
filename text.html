@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Text alteration using JS</title>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // tiny
+                document.querySelector('#tiny').onclick = fucntion() {
+                    document.querySelector('#hello').style.fontSize = '10px';
+                };
+
+                //mid
+                document.querySelector('#mid').onclick = fucntion() {
+                    document.querySelector('#hello').style.fontSize = '30px';
+                };
+
+                //big
+                document.querySelector('#big').onclick = fucntion() {
+                    document.querySelector('#hello').style.fontSize = '50px';
+                };
+            })
+        </script>
+    </head>
+    <body>
+        <h1 id="hello">Hello</h1>
+        <button id="tiny">Small</button>
+        <button id="mid">Medium</button>
+        <button id="big">Large</button>
+    </body>
+</html>
